@@ -1,0 +1,260 @@
+body {
+    background-image: linear-gradient(45deg,purple,blue,violet,indigo);
+}
+.heading {
+    background-color: rgb(219, 219, 231);
+    text-align: center;
+    position:sticky;
+    top: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 5px;
+    opacity: 0.9;
+    text-decoration: underline;
+}
+.classicimg {
+    width: 230px;
+    height:350px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 10px 10px;
+   
+}
+.classic {
+    background-color: rgb(217, 233, 233);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:10px 35px;
+    display:flex;
+    
+}
+.classicinfo {
+    display:inline-block;
+    width:75%;
+    padding:10px;
+    text-align: justify;
+   
+}
+.loveletter {
+    background-color: rgb(217, 233, 233);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:10px 35px ; 
+    display:flex;
+}
+.loveletterimg {
+    width:230px;
+    height:350px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.loveletterinfo {
+    display:inline-block;
+    width: 75%;
+    padding:10px;
+    text-align: justify;
+}
+.gonewiththewind {
+    background-color: rgb(217, 233, 233);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:10px 35px ; 
+    display: flex;
+}
+.gonewiththewindimg {
+    width:230px;
+    height:350px; 
+    padding:5px 5px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.gonewiththewindinfo {
+    display: inline-block;
+    width:75%;
+    padding:10px;
+    text-align: justify;
+}
+.deadpoetssociety {
+    background-color: rgb(217, 233, 233);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:10px 35px ; 
+    display:flex;
+}
+.deadpoetssocietyimg {
+    width:230px;
+    height:350px; 
+    padding:5px 5px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.deadpoetssocietyinfo {
+    display: inline-block;
+    width:75%;
+    padding:10px;
+    text-align: justify;
+}
+.beforesunrise {
+    background-color: rgb(217, 233, 233);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:10px 35px ; 
+    display:flex;
+}
+.beforesunriseimg {
+    width:230px;
+    height:350px;
+    padding:5px 5px;
+    border-radius: 10px; 
+    margin: 10px 10px;
+}
+.beforesunriseinfo {
+    display: inline-block;
+    width:75%;
+    padding:10px;
+    text-align: justify;
+}
+.inthemoodforlove {
+    background-color: rgb(217, 233, 233);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:10px 35px ; 
+    display:flex;
+}
+.inthemoodforloveimg {
+    width:230px;
+    height:350px; 
+    padding:5px 5px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.inthemoodforloveinfo {
+    display: inline-block;
+    width:75%;
+    padding:10px;
+    text-align: justify;
+}
+.OUATIA {
+    background-color: rgb(217, 233, 233);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:10px 35px ;  
+    display: flex;
+}
+.OUATIAimg {
+    width:230px;
+    height:350px; 
+    padding:5px 5px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.OUATIAinfo {
+    display: inline-block;
+    width:75%;
+    padding:10px;
+    text-align: justify;
+}
+@media (max-width:650px) {
+    .heading {
+        font-size: 15px;
+    }
+   .classic {
+       flex-direction:column;
+   }
+   .classicimg {
+       width:80%;
+       height:60%;
+       padding-left:8%;
+       padding-top:5% ;   
+   }
+   .classicinfo {
+       font-size: 13px;
+       padding-left: 45px;
+       padding-bottom: 10px;
+   }
+   .loveletter {
+     flex-direction:column;
+   }
+   .loveletterimg {
+    width:80%;
+    height:60%;
+    padding-left:8%;
+    padding-top:5% ; 
+   }
+   .loveletterinfo {
+    font-size: 13px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+   }
+   .gonewiththewind {
+    flex-direction:column;
+   }
+   .gonewiththewindimg {
+    width:80%;
+    height:60%;
+    padding-left:8%;
+    padding-top:5% ; 
+   }
+   .gonewiththewindinfo {
+    font-size: 13px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+   }
+   .deadpoetssociety {
+    flex-direction:column;
+   }
+   .deadpoetssocietyimg {
+    width:80%;
+    height:60%;
+    padding-left:8%;
+    padding-top:5% ; 
+   }
+   .deadpoetssocietyinfo {
+    font-size: 13px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+   }
+   .beforesunrise {
+    flex-direction:column;
+   }
+   .beforesunriseimg {
+    width:80%;
+    height:60%;
+    padding-left:8%;
+    padding-top:5% ; 
+   }
+   .beforesunriseinfo {
+    font-size: 13px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+   }
+   .inthemoodforlove {
+    flex-direction:column;
+   }
+   .inthemoodforloveimg {
+    width:80%;
+    height:60%;
+    padding-left:8%;
+    padding-top:5% ;
+   }
+   .inthemoodforloveinfo {
+    font-size: 13px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+   }
+   .OUATIA {
+    flex-direction:column;
+   }
+   .OUATIAimg {
+    width:80%;
+    height:60%;
+    padding-left:8%;
+    padding-top:5% ;
+   }
+   .OUATIAinfo {
+    font-size: 13px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+   }
+}
